@@ -1,11 +1,10 @@
-# nft-preview-card-component
-
-README - NFT Preview Card Component
+NFT Preview Card Component
 🎯 Sobre o Projeto
 Um componente de preview de NFT responsivo desenvolvido com HTML e CSS, seguindo um design moderno com efeitos hover interativos.
 
 🖼️ Preview do Projeto
-![NFT Preview Card Component](./images/preview.png)
+
+[NFT Preview Card Component](./images/preview.png)
 
 ✨ Funcionalidades
 ✅ Design 100% responsivo para todos os dispositivos
