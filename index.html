@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <main class="container flex">
+      <article class="card">
+        <figure class="image-container">
+          <img
+            class="nft-image"
+            src="./images/image-equilibrium.jpg"
+            alt="Equilibrium NFT artwork"
+          />
+        </figure>
+
+        <section class="content">
+          <h1 class="title">Equilibrium #3429</h1>
+
+          <p class="description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <div class="info-container">
+            <div class="price">
+              <img src="./images/icon-ethereum.svg" alt="Ethereum icon" />
+              <span class="eth-value">0.041 ETH</span>
+            </div>
+
+            <div class="time">
+              <img src="./images/icon-clock.svg" alt="Clock icon" />
+              <time datetime="P3D">3 days left</time>
+            </div>
+          </div>
+        </section>
+
+        <hr class="divider" />
+
+        <footer class="creator">
+          <img
+            class="avatar"
+            src="./images/image-avatar.png"
+            alt="Jules Wyvern avatar"
+          />
+          <p class="creation-text">
+            Creation of <span class="creator-name">Jules Wyvern</span>
+          </p>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
